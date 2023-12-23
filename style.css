@@ -44,13 +44,25 @@ body{
     }
   }
 
+  @media (max-width: 800px) {
+    .box{
+        width: 70%;
+    }
+    h1{
+        font-size: 260%;
+    }
+  }
+
   @media (max-width: 1000px) {
     .box{
         width: 70%;
     }
+    h1{
+        font-size: 230%;
+    }
   }
 
-  @media (max-width: 360px) {
+  @media (max-width: 440px) {
     .box{
         width: 90%;
     }
